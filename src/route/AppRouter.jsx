@@ -7,7 +7,7 @@ import Home from "../pages/Home";
 // Women
 // New In
 import All from "../components/Women/New/All";
-import LifeStyle from "../components/Women/New/Lifestyle";
+import LifeStyle from "../components/Women/New/LifeStyle";
 import Casual from "../components/Women/New/Casual";
 import Dress from "../components/Women/New/Dress";
 
