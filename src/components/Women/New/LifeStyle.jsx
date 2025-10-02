@@ -1,7 +1,7 @@
 // All.jsx
 import React from "react";
 
-const Life_style = () => {
+const LifeStyle = () => {
   const products = [
     {
       id: 1,
@@ -110,4 +110,4 @@ const Life_style = () => {
   );
 };
 
-export default Life_style;
+export default LifeStyle;

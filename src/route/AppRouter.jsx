@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import All from "../components/Women/New/All";
 
-import Life_style from "../components/Women/New/life_style";
+
 import Cusual from "../components/Women/New/Casual";
 import Dress from "../components/Women/New/Dress";
 import Alls from "../components/Women/Clothing/Alls";
@@ -31,6 +31,8 @@ import Bags from "../components/Women/Accessories/Bags";
 import Belts from "../components/Women/Accessories/Belts";
 import Allssss from "../components/Shop_by_collection/Allssss";
 import Women_Denim from "../components/Shop_by_collection/Women_Denim";
+// import Life_style from "../components/Women/New/life_style";
+import LifeStyle from "../components/Women/New/Lifestyle";
 
 export default function AppRouter() {
   return (
@@ -39,7 +41,7 @@ export default function AppRouter() {
         <Route path="/" element={<Home />} />
         {/* New In */}
         <Route path="/all" element={<All />} />
-        <Route path="/life_style" element={<Life_style />} />
+        <Route path="/lifeStyle" element={<LifeStyle />} />
         <Route path="/casual" element={<Cusual />} />
         <Route path="/dress" element={<Dress />} />
         {/*Clothing */}
@@ -65,11 +67,11 @@ export default function AppRouter() {
         <Route path="/socks" element={<Socks />} />
         <Route path="/HC" element={<HC />} />
         <Route path="/backpacks" element={<Back_Pack />} />
-        <Route path="/bags" element={<Bags/>} />
-        <Route path="/belts" element={<Belts/>} />
+        <Route path="/bags" element={<Bags />} />
+        <Route path="/belts" element={<Belts />} />
         {/* Sop By Collection */}
-        <Route path="/allssss" element={<Allssss/>}/>
-        <Route path="/WD" element={<Women_Denim/>}/>
+        <Route path="/allssss" element={<Allssss />} />
+        <Route path="/WD" element={<Women_Denim />} />
       </Routes>
     </div>
   );
