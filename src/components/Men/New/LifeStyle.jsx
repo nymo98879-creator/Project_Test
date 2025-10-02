@@ -5,6 +5,7 @@ const LifeStyle = () => {
   const products = [
     {
       id: 1,
+      image: "/slidebar/image1.png",
       originalPrice: 18.59,
       discount: 10,
       finalPrice: 12.23,
@@ -14,6 +15,7 @@ const LifeStyle = () => {
     },
     {
       id: 2,
+      image: "/slidebar/image1.png",
       originalPrice: 8.59,
       discount: 19.0,
       finalPrice: 6.95,
@@ -23,6 +25,7 @@ const LifeStyle = () => {
     },
     {
       id: 3,
+      image: "/slidebar/image1.png",
       originalPrice: 14.59,
       discount: 10,
       finalPrice: 13.13,
@@ -32,6 +35,7 @@ const LifeStyle = () => {
     },
     {
       id: 4,
+      image: "/slidebar/image1.png",
       originalPrice: 21.59,
       discount: 0,
       finalPrice: 21.59,
@@ -41,6 +45,7 @@ const LifeStyle = () => {
     },
     {
       id: 5,
+      image: "/slidebar/image2.png",
       originalPrice: 25.99,
       discount: 15,
       finalPrice: 22.09,
@@ -48,7 +53,6 @@ const LifeStyle = () => {
       hasDiscount: true,
       hasPrinted: true,
     },
-    
   ];
 
   return (
@@ -66,9 +70,14 @@ const LifeStyle = () => {
             >
               {/* Product Image Placeholder - Bigger */}
               <div className="h-80 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
-                <span className="text-gray-500 text-xl">
+                {/* <span className="text-gray-500 text-xl">
                   Product {product.id}
-                </span>
+                </span> */}
+                <img
+                  src={product.image}
+                  // alt={product.title}
+                  className="h-full w-full object-cover"
+                />
               </div>
 
               <div className="p-6">

@@ -5,7 +5,7 @@ const All = () => {
   const products = [
     {
       id: 1,
-      image: "/slidebar/image1.png",
+      image: "/Women/New/All/image1.png",
       originalPrice: 18.59,
       discount: 10,
       finalPrice: 12.23,
@@ -15,6 +15,7 @@ const All = () => {
     },
     {
       id: 2,
+      image: "/Women/New/All/image2.png",
       originalPrice: 8.59,
       discount: 19.0,
       finalPrice: 6.95,
@@ -24,6 +25,7 @@ const All = () => {
     },
     {
       id: 3,
+      image: "/Women/New/All/image3.png",
       originalPrice: 14.59,
       discount: 10,
       finalPrice: 13.13,
@@ -33,6 +35,7 @@ const All = () => {
     },
     {
       id: 4,
+      image: "/Women/New/All/image4.png",
       originalPrice: 21.59,
       discount: 0,
       finalPrice: 21.59,
@@ -42,6 +45,7 @@ const All = () => {
     },
     {
       id: 5,
+      image: "/Women/New/All/image5.png",
       originalPrice: 25.99,
       discount: 15,
       finalPrice: 22.09,
@@ -51,6 +55,7 @@ const All = () => {
     },
     {
       id: 6,
+      image: "/Women/New/All/image6.png",
       originalPrice: 12.99,
       discount: 20,
       finalPrice: 10.39,
@@ -60,6 +65,7 @@ const All = () => {
     },
     {
       id: 7,
+      image: "/Women/New/All/image7.png",
       originalPrice: 19.99,
       discount: 25,
       finalPrice: 14.99,
@@ -69,6 +75,7 @@ const All = () => {
     },
     {
       id: 8,
+      image: "/Women/New/All/image8.png",
       originalPrice: 32.5,
       discount: 0,
       finalPrice: 32.5,
@@ -78,6 +85,7 @@ const All = () => {
     },
     {
       id: 9,
+      image: "/Women/New/All/image9.png",
       originalPrice: 15.75,
       discount: 30,
       finalPrice: 11.03,
@@ -87,6 +95,7 @@ const All = () => {
     },
     {
       id: 10,
+      image: "/Women/New/All/image10.png",
       originalPrice: 28.99,
       discount: 12,
       finalPrice: 25.51,
@@ -96,6 +105,7 @@ const All = () => {
     },
     {
       id: 11,
+      image: "/Women/New/All/image11.png",
       originalPrice: 9.99,
       discount: 5,
       finalPrice: 9.49,
@@ -105,6 +115,7 @@ const All = () => {
     },
     {
       id: 12,
+      image: "/Women/New/All/image12.png",
       originalPrice: 35.0,
       discount: 40,
       finalPrice: 21.0,
@@ -114,6 +125,7 @@ const All = () => {
     },
     {
       id: 13,
+      image: "/Women/New/All/image13.png",
       originalPrice: 17.5,
       discount: 0,
       finalPrice: 17.5,
@@ -123,6 +135,7 @@ const All = () => {
     },
     {
       id: 14,
+      image: "/Women/New/All/image14.png",
       originalPrice: 22.99,
       discount: 18,
       finalPrice: 18.85,
@@ -132,6 +145,7 @@ const All = () => {
     },
     {
       id: 15,
+      image: "/Women/New/All/image15.png",
       originalPrice: 13.25,
       discount: 8,
       finalPrice: 12.19,
@@ -141,6 +155,7 @@ const All = () => {
     },
     {
       id: 16,
+      image: "/Women/New/All/image16.png",
       originalPrice: 29.99,
       discount: 35,
       finalPrice: 19.49,
@@ -150,6 +165,7 @@ const All = () => {
     },
     {
       id: 17,
+      image: "/Women/New/All/image17.png",
       originalPrice: 11.99,
       discount: 0,
       finalPrice: 11.99,
@@ -159,6 +175,7 @@ const All = () => {
     },
     {
       id: 18,
+      image: "/Women/New/All/image18.png",
       originalPrice: 26.5,
       discount: 22,
       finalPrice: 20.67,
@@ -168,6 +185,7 @@ const All = () => {
     },
     {
       id: 19,
+      image: "/Women/New/All/image19.png",
       originalPrice: 16.75,
       discount: 15,
       finalPrice: 14.24,
@@ -177,6 +195,7 @@ const All = () => {
     },
     {
       id: 20,
+      image: "/Women/New/All/image20.png",
       originalPrice: 31.99,
       discount: 28,
       finalPrice: 23.03,
@@ -200,7 +219,7 @@ const All = () => {
               className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
             >
               {/* Product Image Placeholder - Bigger */}
-              <div className="h-80 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
+              <div className="h-90 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
                 {/* <span className="text-gray-500 text-xl">
                   Product {product.image}
                 </span> */}
@@ -211,7 +230,7 @@ const All = () => {
                 />
               </div>
 
-              <div className="p-6">
+              <div className="p-6 ">
                 {/* Price Section - Bigger */}
                 <div className="flex justify-between items-center mb-4">
                   <div className="flex items-center space-x-3">

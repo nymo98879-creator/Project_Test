@@ -5,6 +5,8 @@ const Alls = () => {
   const products = [
     {
       id: 1,
+
+      image: "/Women/Clothing/All/image1.png",
       originalPrice: 18.59,
       discount: 10,
       finalPrice: 12.23,
@@ -14,6 +16,8 @@ const Alls = () => {
     },
     {
       id: 2,
+
+      image: "/Women/Clothing/All/image2.png",
       originalPrice: 8.59,
       discount: 19.0,
       finalPrice: 6.95,
@@ -23,6 +27,8 @@ const Alls = () => {
     },
     {
       id: 3,
+
+      image: "/Women/Clothing/All/image3.png",
       originalPrice: 14.59,
       discount: 10,
       finalPrice: 13.13,
@@ -32,6 +38,8 @@ const Alls = () => {
     },
     {
       id: 4,
+
+      image: "/Women/Clothing/All/image4.png",
       originalPrice: 21.59,
       discount: 0,
       finalPrice: 21.59,
@@ -41,6 +49,8 @@ const Alls = () => {
     },
     {
       id: 5,
+
+      image: "/Women/Clothing/All/image5.png",
       originalPrice: 25.99,
       discount: 15,
       finalPrice: 22.09,
@@ -50,6 +60,8 @@ const Alls = () => {
     },
     {
       id: 6,
+
+      image: "/Women/Clothing/All/image6.png",
       originalPrice: 32.99,
       discount: 20,
       finalPrice: 26.39,
@@ -59,6 +71,8 @@ const Alls = () => {
     },
     {
       id: 7,
+
+      image: "/Women/Clothing/All/image7.png",
       originalPrice: 45.5,
       discount: 25,
       finalPrice: 34.13,
@@ -68,6 +82,8 @@ const Alls = () => {
     },
     {
       id: 8,
+
+      image: "/Women/Clothing/All/image8.png",
       originalPrice: 28.75,
       discount: 0,
       finalPrice: 28.75,
@@ -77,6 +93,8 @@ const Alls = () => {
     },
     {
       id: 9,
+
+      image: "/Women/Clothing/All/image9.png",
       originalPrice: 19.99,
       discount: 30,
       finalPrice: 13.99,
@@ -86,6 +104,7 @@ const Alls = () => {
     },
     {
       id: 10,
+      image: "/Women/Clothing/All/image10.png",
       originalPrice: 55.0,
       discount: 15,
       finalPrice: 46.75,
@@ -95,6 +114,7 @@ const Alls = () => {
     },
     {
       id: 11,
+      image: "/Women/Clothing/All/image11.png",
       originalPrice: 22.49,
       discount: 10,
       finalPrice: 20.24,
@@ -104,6 +124,7 @@ const Alls = () => {
     },
     {
       id: 12,
+      image: "/Women/Clothing/All/image12.png",
       originalPrice: 38.99,
       discount: 40,
       finalPrice: 23.39,
@@ -113,6 +134,7 @@ const Alls = () => {
     },
     {
       id: 13,
+      image: "/Women/Clothing/All/image13.png",
       originalPrice: 16.99,
       discount: 0,
       finalPrice: 16.99,
@@ -122,6 +144,7 @@ const Alls = () => {
     },
     {
       id: 14,
+      image: "/Women/Clothing/All/image14.png",
       originalPrice: 29.5,
       discount: 18,
       finalPrice: 24.19,
@@ -131,6 +154,7 @@ const Alls = () => {
     },
     {
       id: 15,
+      image: "/Women/Clothing/All/image15.png",
       originalPrice: 42.75,
       discount: 22,
       finalPrice: 33.35,
@@ -140,6 +164,7 @@ const Alls = () => {
     },
     {
       id: 16,
+      image: "/Women/Clothing/All/image16.png",
       originalPrice: 24.99,
       discount: 12,
       finalPrice: 21.99,
@@ -149,6 +174,7 @@ const Alls = () => {
     },
     {
       id: 17,
+      image: "/Women/Clothing/All/image17.png",
       originalPrice: 35.25,
       discount: 0,
       finalPrice: 35.25,
@@ -158,6 +184,7 @@ const Alls = () => {
     },
     {
       id: 18,
+      image: "/Women/Clothing/All/image18.png",
       originalPrice: 19.75,
       discount: 25,
       finalPrice: 14.81,
@@ -167,6 +194,7 @@ const Alls = () => {
     },
     {
       id: 19,
+      image: "/Women/Clothing/All/image19.png",
       originalPrice: 48.99,
       discount: 35,
       finalPrice: 31.84,
@@ -176,6 +204,7 @@ const Alls = () => {
     },
     {
       id: 20,
+      image: "/Women/Clothing/All/image20.png",
       originalPrice: 27.5,
       discount: 8,
       finalPrice: 25.3,
@@ -185,6 +214,7 @@ const Alls = () => {
     },
     {
       id: 21,
+      image: "/Women/Clothing/All/image21.png",
       originalPrice: 33.99,
       discount: 20,
       finalPrice: 27.19,
@@ -194,6 +224,7 @@ const Alls = () => {
     },
     {
       id: 22,
+      image: "/Women/Clothing/All/image22.png",
       originalPrice: 15.99,
       discount: 15,
       finalPrice: 13.59,
@@ -203,6 +234,7 @@ const Alls = () => {
     },
     {
       id: 23,
+      image: "/Women/Clothing/All/image23.png",
       originalPrice: 39.5,
       discount: 0,
       finalPrice: 39.5,
@@ -212,6 +244,7 @@ const Alls = () => {
     },
     {
       id: 24,
+      image: "/Women/Clothing/All/image24.png",
       originalPrice: 22.25,
       discount: 30,
       finalPrice: 15.58,
@@ -221,6 +254,7 @@ const Alls = () => {
     },
     {
       id: 25,
+      image: "/Women/Clothing/All/image25.png",
       originalPrice: 52.99,
       discount: 25,
       finalPrice: 39.74,
@@ -230,6 +264,7 @@ const Alls = () => {
     },
     {
       id: 26,
+      image: "/Women/Clothing/All/image26.png",
       originalPrice: 18.99,
       discount: 10,
       finalPrice: 17.09,
@@ -239,6 +274,7 @@ const Alls = () => {
     },
     {
       id: 27,
+      image: "/Women/Clothing/All/image27.png",
       originalPrice: 29.75,
       discount: 18,
       finalPrice: 24.4,
@@ -248,6 +284,7 @@ const Alls = () => {
     },
     {
       id: 28,
+      image: "/Women/Clothing/All/image28.png",
       originalPrice: 44.5,
       discount: 40,
       finalPrice: 26.7,
@@ -257,6 +294,7 @@ const Alls = () => {
     },
     {
       id: 29,
+      image: "/Women/Clothing/All/image29.png",
       originalPrice: 16.5,
       discount: 0,
       finalPrice: 16.5,
@@ -266,6 +304,7 @@ const Alls = () => {
     },
     {
       id: 30,
+      image: "/Women/Clothing/All/image30.png",
       originalPrice: 31.99,
       discount: 22,
       finalPrice: 24.95,
@@ -275,6 +314,7 @@ const Alls = () => {
     },
     {
       id: 31,
+      image: "/Women/Clothing/All/image31.png",
       originalPrice: 26.75,
       discount: 15,
       finalPrice: 22.74,
@@ -284,6 +324,7 @@ const Alls = () => {
     },
     {
       id: 32,
+      image: "/Women/Clothing/All/image32.png",
       originalPrice: 19.99,
       discount: 12,
       finalPrice: 17.59,
@@ -293,6 +334,7 @@ const Alls = () => {
     },
     {
       id: 33,
+      image: "/Women/Clothing/All/image33.png",
       originalPrice: 37.25,
       discount: 0,
       finalPrice: 37.25,
@@ -302,6 +344,7 @@ const Alls = () => {
     },
     {
       id: 34,
+      image: "/Women/Clothing/All/image34.png",
       originalPrice: 23.5,
       discount: 28,
       finalPrice: 16.92,
@@ -311,6 +354,7 @@ const Alls = () => {
     },
     {
       id: 35,
+      image: "/Women/Clothing/All/image35.png",
       originalPrice: 49.99,
       discount: 35,
       finalPrice: 32.49,
@@ -320,6 +364,7 @@ const Alls = () => {
     },
     {
       id: 36,
+      image: "/Women/Clothing/All/image36.png",
       originalPrice: 17.25,
       discount: 8,
       finalPrice: 15.87,
@@ -329,6 +374,7 @@ const Alls = () => {
     },
     {
       id: 37,
+      image: "/Women/Clothing/All/image37.png",
       originalPrice: 34.99,
       discount: 20,
       finalPrice: 27.99,
@@ -338,6 +384,7 @@ const Alls = () => {
     },
     {
       id: 38,
+      image: "/Women/Clothing/All/image38.png",
       originalPrice: 21.75,
       discount: 25,
       finalPrice: 16.31,
@@ -347,6 +394,7 @@ const Alls = () => {
     },
     {
       id: 39,
+      image: "/Women/Clothing/All/image39.png",
       originalPrice: 42.5,
       discount: 0,
       finalPrice: 42.5,
@@ -356,6 +404,7 @@ const Alls = () => {
     },
     {
       id: 40,
+      image: "/Women/Clothing/All/image40.png",
       originalPrice: 28.99,
       discount: 30,
       finalPrice: 20.29,
@@ -365,6 +414,7 @@ const Alls = () => {
     },
     {
       id: 41,
+      image: "/Women/Clothing/All/image41.png",
       originalPrice: 19.5,
       discount: 15,
       finalPrice: 16.58,
@@ -374,6 +424,7 @@ const Alls = () => {
     },
     {
       id: 42,
+      image: "/Women/Clothing/All/image42.png",
       originalPrice: 36.75,
       discount: 22,
       finalPrice: 28.67,
@@ -383,6 +434,7 @@ const Alls = () => {
     },
     {
       id: 43,
+      image: "/Women/Clothing/All/image43.png",
       originalPrice: 24.99,
       discount: 0,
       finalPrice: 24.99,
@@ -392,6 +444,7 @@ const Alls = () => {
     },
     {
       id: 44,
+      image: "/Women/Clothing/All/image44.png",
       originalPrice: 31.25,
       discount: 18,
       finalPrice: 25.63,
@@ -401,6 +454,7 @@ const Alls = () => {
     },
     {
       id: 45,
+      image: "/Women/Clothing/All/image45.png",
       originalPrice: 47.99,
       discount: 40,
       finalPrice: 28.79,
@@ -410,6 +464,7 @@ const Alls = () => {
     },
     {
       id: 46,
+      image: "/Women/Clothing/All/image46.png",
       originalPrice: 16.99,
       discount: 10,
       finalPrice: 15.29,
@@ -419,6 +474,7 @@ const Alls = () => {
     },
     {
       id: 47,
+      image: "/Women/Clothing/All/image47.png",
       originalPrice: 29.5,
       discount: 25,
       finalPrice: 22.13,
@@ -428,6 +484,7 @@ const Alls = () => {
     },
     {
       id: 48,
+      image: "/Women/Clothing/All/image48.png",
       originalPrice: 39.75,
       discount: 0,
       finalPrice: 39.75,
@@ -437,6 +494,7 @@ const Alls = () => {
     },
     {
       id: 49,
+      image: "/Women/Clothing/All/image49.png",
       originalPrice: 22.99,
       discount: 35,
       finalPrice: 14.94,
@@ -446,6 +504,7 @@ const Alls = () => {
     },
     {
       id: 50,
+      image: "/Women/Clothing/All/image50.png",
       originalPrice: 33.25,
       discount: 20,
       finalPrice: 26.6,
@@ -459,7 +518,7 @@ const Alls = () => {
     <div className="min-h-screen bg-gray-50 py-12 px-6">
       <div className="max-w-8xl mx-auto">
         <h1 className="text-5xl font-bold text-center mb-12 text-gray-800">
-          AllS Clothing 
+          AllS Clothing
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -469,10 +528,15 @@ const Alls = () => {
               className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
             >
               {/* Product Image Placeholder - Bigger */}
-              <div className="h-80 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
-                <span className="text-gray-500 text-xl">
+              <div className="h-90 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
+                {/* <span className="text-gray-500 text-xl">
                   Product {product.id}
-                </span>
+                </span> */}
+                <img
+                  src={product.image}
+                  // alt={product.title}
+                  className="h-full w-full object-cover"
+                />
               </div>
 
               <div className="p-6">
