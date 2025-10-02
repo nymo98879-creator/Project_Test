@@ -5,6 +5,7 @@ const All = () => {
   const products = [
     {
       id: 1,
+      image: "/slidebar/image1.png",
       originalPrice: 18.59,
       discount: 10,
       finalPrice: 12.23,
@@ -200,9 +201,14 @@ const All = () => {
             >
               {/* Product Image Placeholder - Bigger */}
               <div className="h-80 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
-                <span className="text-gray-500 text-xl">
-                  Product {product.id}
-                </span>
+                {/* <span className="text-gray-500 text-xl">
+                  Product {product.image}
+                </span> */}
+                <img
+                  src={product.image}
+                  // alt={product.title}
+                  className="h-full w-full object-cover"
+                />
               </div>
 
               <div className="p-6">
