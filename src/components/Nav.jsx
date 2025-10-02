@@ -123,7 +123,7 @@ export default function Nav() {
                                 isActive ? "border-b-2 border-black" : ""
                               }
                             >
-                              Lifestyle
+                              LifeStyle
                             </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
@@ -207,7 +207,7 @@ export default function Nav() {
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/PShirt"
+                              to="/poloShirt"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
@@ -218,7 +218,7 @@ export default function Nav() {
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/T-Shirt"
+                              to="/tShirt"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
@@ -229,7 +229,7 @@ export default function Nav() {
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/Jacket"
+                              to="/jacket"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
@@ -240,7 +240,7 @@ export default function Nav() {
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/HS"
+                              to="/hs"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
@@ -251,7 +251,7 @@ export default function Nav() {
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/Cardigan"
+                              to="/cardigan"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
@@ -262,7 +262,7 @@ export default function Nav() {
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/Trouser"
+                              to="/trouser"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
@@ -320,7 +320,7 @@ export default function Nav() {
                         <ul className="ml-4 mt-2 space-y-1 text-gray-600 font-normal">
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/allss"
+                              to="/allShoes"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
@@ -355,7 +355,7 @@ export default function Nav() {
                         <ul className="ml-4 mt-2 space-y-1 text-gray-600 font-normal">
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/allsss"
+                              to="/allAccessories"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
@@ -388,7 +388,7 @@ export default function Nav() {
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/HC"
+                              to="/hc"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
@@ -399,7 +399,7 @@ export default function Nav() {
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/backpacks"
+                              to="/backpack"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
@@ -445,7 +445,7 @@ export default function Nav() {
                         <ul className="ml-4 mt-2 space-y-1 text-gray-600 font-normal">
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/allssss"
+                              to="/allCollections"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
@@ -456,14 +456,13 @@ export default function Nav() {
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/WD"
+                              to="/womenDenim"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
                               }
                             >
-                              
-                            Women Denim
+                              Women Denim
                             </NavLink>
                           </li>
                         </ul>
@@ -483,7 +482,7 @@ export default function Nav() {
                             All
                           </li>
                           <li className="cursor-pointer hover:text-black">
-                            Lifestyle
+                            LifeStyle
                           </li>
                           <li className="cursor-pointer hover:text-black">
                             Casual
@@ -518,10 +517,19 @@ export default function Nav() {
                       {openMenu === "newinm" && (
                         <ul className="ml-4 mt-2 space-y-1 text-gray-600 font-normal">
                           <li className="cursor-pointer text-xl hover:text-black">
+                            <NavLink
+                              to="/mall"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                            
                             All
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Lifestyle
+                            LifeStyle
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
                             Casual
@@ -673,7 +681,7 @@ export default function Nav() {
                             All
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Lifestyle
+                            LifeStyle
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
                             Casual

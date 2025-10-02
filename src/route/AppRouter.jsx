@@ -1,17 +1,24 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+// Pages
 import Home from "../pages/Home";
+
+// Women
+// New In
 import All from "../components/Women/New/All";
-
-
-import Cusual from "../components/Women/New/Casual";
+import LifeStyle from "../components/Women/New/Lifestyle";
+import Casual from "../components/Women/New/Casual";
 import Dress from "../components/Women/New/Dress";
+
+
+// Clothing
 import Alls from "../components/Women/Clothing/Alls";
 import Vest from "../components/Women/Clothing/Vest";
 import Blazers from "../components/Women/Clothing/Blazers";
 import Shirts from "../components/Women/Clothing/Shirts";
-import Polo_Shirts from "../components/Women/Clothing/Polo_Shirts";
-import T_Shirts from "../components/Women/Clothing/T_Shirts";
+import PoloShirts from "../components/Women/Clothing/PoloShirts";
+import TShirts from "../components/Women/Clothing/TShirts";
 import Jackets from "../components/Women/Clothing/Jackets";
 import HS from "../components/Women/Clothing/HS";
 import Cardigans from "../components/Women/Clothing/Cardigans";
@@ -20,59 +27,80 @@ import Jeans from "../components/Women/Clothing/Jeans";
 import Shorts from "../components/Women/Clothing/Shorts";
 import Boxers from "../components/Women/Clothing/Boxers";
 
-import Sandals from "../components/Women/Soes/Sandals";
-import Allss from "../components/Women/Soes/Allss";
+// Shoes
+import Allss from "../components/Women/Shoes/Allss";
+import Sandals from "../components/Women/Shoes/Sandals";
+
+// Accessories
 import Allsss from "../components/Women/Accessories/Allsss";
 import Bows from "../components/Women/Accessories/Bows";
 import Socks from "../components/Women/Accessories/Socks";
 import HC from "../components/Women/Accessories/CH";
-import Back_Pack from "../components/Women/Accessories/Back_Pack";
+import BackPack from "../components/Women/Accessories/BackPack";
 import Bags from "../components/Women/Accessories/Bags";
 import Belts from "../components/Women/Accessories/Belts";
-import Allssss from "../components/Shop_by_collection/Allssss";
-import Women_Denim from "../components/Shop_by_collection/Women_Denim";
-// import Life_style from "../components/Women/New/life_style";
-import LifeStyle from "../components/Women/New/Lifestyle";
+
+// Shop By Collection
+import Allssss from "../components/Women/Shop_by_collection/Allssss";
+import WomenDenim from "../components/Women/Shop_by_collection/WomenDenim";
+
+// Men
+// New
+import MAll from "../components/Men/New/MAll";
+
+
+
 
 export default function AppRouter() {
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        {/* New In */}
-        <Route path="/all" element={<All />} />
-        <Route path="/lifeStyle" element={<LifeStyle />} />
-        <Route path="/casual" element={<Cusual />} />
-        <Route path="/dress" element={<Dress />} />
-        {/*Clothing */}
-        <Route path="/alls" element={<Alls />} />
-        <Route path="/vest" element={<Vest />} />
-        <Route path="/blazer" element={<Blazers />} />
-        <Route path="/Shirt" element={<Shirts />} />
-        <Route path="/PShirt" element={<Polo_Shirts />} />
-        <Route path="/T-Shirt" element={<T_Shirts />} />
-        <Route path="/Jacket" element={<Jackets />} />
-        <Route path="/HS" element={<HS />} />
-        <Route path="/Cardigan" element={<Cardigans />} />
-        <Route path="/Trouser" element={<Trousers />} />
-        <Route path="/Jean" element={<Jeans />} />
-        <Route path="/Short" element={<Shorts />} />
-        <Route path="/Boxer" element={<Boxers />} />
-        {/* Shoes */}
-        <Route path="/allss" element={<Allss />} />
-        <Route path="/sandals" element={<Sandals />} />
-        {/* Accesseries */}
-        <Route path="/allsss" element={<Allsss />} />
-        <Route path="/bows" element={<Bows />} />
-        <Route path="/socks" element={<Socks />} />
-        <Route path="/HC" element={<HC />} />
-        <Route path="/backpacks" element={<Back_Pack />} />
-        <Route path="/bags" element={<Bags />} />
-        <Route path="/belts" element={<Belts />} />
-        {/* Sop By Collection */}
-        <Route path="/allssss" element={<Allssss />} />
-        <Route path="/WD" element={<Women_Denim />} />
-      </Routes>
-    </div>
+    <Routes>
+
+      {/* Womne Route */}
+      {/* Home */}
+      <Route path="/" element={<Home />} />
+
+      {/* New In */}
+      <Route path="/all" element={<All/>} />
+      <Route path="/lifeStyle" element={<LifeStyle />} />
+      <Route path="/casual" element={<Casual/>} />
+      <Route path="/dress" element={<Dress/>} />
+
+      {/* Clothing */}
+      <Route path="/alls" element={<Alls/>} />
+      <Route path="/vest" element={<Vest/>} />
+      <Route path="/blazer" element={<Blazers />} />
+      <Route path="/shirt" element={<Shirts/>} />
+      <Route path="/poloShirt" element={<PoloShirts />} />
+      <Route path="/tShirt" element={<TShirts />} />
+      <Route path="/jacket" element={<Jackets />} />
+      <Route path="/hs" element={<HS />} />
+      <Route path="/cardigan" element={<Cardigans />} />
+      <Route path="/trouser" element={<Trousers />} />
+      <Route path="/jean" element={<Jeans />} />
+      <Route path="/short" element={<Shorts />} />
+      <Route path="/boxer" element={<Boxers />} />
+
+      {/* Shoes */}
+      <Route path="/allShoes" element={<Allss />} />
+      <Route path="/sandals" element={<Sandals />} />
+
+      {/* Accessories */}
+      <Route path="/allAccessories" element={<Allsss />} />
+      <Route path="/bows" element={<Bows />} />
+      <Route path="/socks" element={<Socks />} />
+      <Route path="/hc" element={<HC/>} />
+      <Route path="/backpack" element={<BackPack />} />
+      <Route path="/bags" element={<Bags />} />
+      <Route path="/belts" element={<Belts />} />
+
+      {/* Shop By Collection */}
+      <Route path="/allCollections" element={<Allssss />} />
+      <Route path="/womenDenim" element={<WomenDenim />} />
+
+
+    {/* Men Route */}
+    <Route path="mall" element={<MAll/>}/>
+
+    </Routes>
   );
 }
