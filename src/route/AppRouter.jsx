@@ -39,7 +39,7 @@ export default function AppRouter() {
         <Route path="/" element={<Home />} />
         {/* New In */}
         <Route path="/all" element={<All />} />
-        <Route path="/lifes" element={<Life_style />} />
+        <Route path="/life_style" element={<Life_style />} />
         <Route path="/casual" element={<Cusual />} />
         <Route path="/dress" element={<Dress />} />
         {/*Clothing */}

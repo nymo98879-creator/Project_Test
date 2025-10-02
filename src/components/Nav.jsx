@@ -117,7 +117,7 @@ export default function Nav() {
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
                             <NavLink
-                              to="/lifes"
+                              to="/life_style"
                               onClick={() => setNav(!nav)}
                               className={({ isActive }) =>
                                 isActive ? "border-b-2 border-black" : ""
