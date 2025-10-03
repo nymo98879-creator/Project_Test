@@ -1,11 +1,10 @@
 // All.jsx
 import React from "react";
 
-const Jackets = () => {
+const MCasual = () => {
   const products = [
     {
       id: 1,
-        image: "/Women/Clothing/Jackets/image1.png",
       originalPrice: 18.59,
       discount: 10,
       finalPrice: 12.23,
@@ -15,7 +14,6 @@ const Jackets = () => {
     },
     {
       id: 2,
-        image: "/Women/Clothing/Jackets/image2.png",
       originalPrice: 8.59,
       discount: 19.0,
       finalPrice: 6.95,
@@ -25,11 +23,28 @@ const Jackets = () => {
     },
     {
       id: 3,
-        image: "/Women/Clothing/Jackets/image3.png",
       originalPrice: 14.59,
       discount: 10,
       finalPrice: 13.13,
       title: "Regular T-Shirts With Printed",
+      hasDiscount: true,
+      hasPrinted: true,
+    },
+    {
+      id: 4,
+      originalPrice: 21.59,
+      discount: 0,
+      finalPrice: 21.59,
+      title: "Straight Leg Trouser With Elastic Watsiba...",
+      hasDiscount: false,
+      hasPrinted: false,
+    },
+    {
+      id: 5,
+      originalPrice: 25.99,
+      discount: 15,
+      finalPrice: 22.09,
+      title: "Premium Cotton T-Shirt",
       hasDiscount: true,
       hasPrinted: true,
     },
@@ -40,7 +55,7 @@ const Jackets = () => {
     <div className="min-h-screen bg-gray-50 py-12 px-6">
       <div className="max-w-8xl mx-auto">
         <h1 className="text-5xl font-bold text-center mb-12 text-gray-800">
-          Jackets
+          Cusual Men
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-8">
@@ -50,15 +65,10 @@ const Jackets = () => {
               className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
             >
               {/* Product Image Placeholder - Bigger */}
-              <div className="h-90 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
-                {/* <span className="text-gray-500 text-xl">
+              <div className="h-80 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
+                <span className="text-gray-500 text-xl">
                   Product {product.id}
-                </span> */}
-                <img
-                  src={product.image}
-                  // alt={product.title}
-                  className="h-full w-full object-cover"
-                />
+                </span>
               </div>
 
               <div className="p-6">
@@ -100,4 +110,4 @@ const Jackets = () => {
   );
 };
 
-export default Jackets;
+export default MCasual;

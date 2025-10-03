@@ -524,21 +524,30 @@ export default function Nav() {
                                 isActive ? "border-b-2 border-black" : ""
                               }
                             >
-                            
-                            All
+                              All
                             </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            LifeStyle
+                            <NavLink
+                              to="/mlifestyle"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              LifeStyle
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Casual
-                          </li>
-                          <li className="cursor-pointer text-xl hover:text-black">
-                            New In Top
-                          </li>
-                          <li className="cursor-pointer text-xl hover:text-black">
-                            New In Bottom
+                            <NavLink
+                              to="/mcasual"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Casual
+                            </NavLink>
                           </li>
                         </ul>
                       )}
@@ -554,43 +563,147 @@ export default function Nav() {
                       {openMenu === "clothingm" && (
                         <ul className="ml-4 mt-2 space-y-1 text-gray-600 font-normal">
                           <li className="cursor-pointer text-xl hover:text-black">
-                            All
+                            <NavLink
+                              to="/malls"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              All
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Vest
+                            <NavLink
+                              to="/mvest"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Vest
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Blazers
+                            <NavLink
+                              to="/mblazer"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Blazers
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Shirts
+                            <NavLink
+                              to="/mshirts"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Shirts
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Polo Shirts
+                            <NavLink
+                              to="/mpshirts"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Polo Shirts
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            T-Shirts
+                            <NavLink
+                              to="/mtshirts"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              T-Shirts
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Jackets
+                            <NavLink
+                              to="/mjeakets"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Jackets
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Hoodies & Sweatshirts
+                            <NavLink
+                              to="/mhs"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Hoodies & Sweatshirts
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Cardigans
+                            <NavLink
+                              to="/mcardigans"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Cardigans
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Trousers
+                            <NavLink
+                              to="/mtrousers"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Trousers
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Jeans
+                            <NavLink
+                              to="/mjeans"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Jeans
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Shorts
+                            <NavLink
+                              to="/mshorts"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Shorts
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Boxers
+                            <NavLink
+                              to="/mboxers"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Boxers
+                            </NavLink>
                           </li>
                         </ul>
                       )}
@@ -606,13 +719,37 @@ export default function Nav() {
                       {openMenu === "shoesm" && (
                         <ul className="ml-4 mt-2 space-y-1 text-gray-600 font-normal">
                           <li className="cursor-pointer text-xl hover:text-black">
-                            All
+                            <NavLink
+                              to="/mallss"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              All
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Sneakers
+                            <NavLink
+                              to="/msneakers"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Sneakers
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Sandals
+                            <NavLink
+                              to="/msandals"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Sandals
+                            </NavLink>
                           </li>
                         </ul>
                       )}
@@ -628,22 +765,70 @@ export default function Nav() {
                       {openMenu === "accessoriesm" && (
                         <ul className="ml-4 mt-2 space-y-1 text-gray-600 font-normal">
                           <li className="cursor-pointer text-xl hover:text-black">
-                            All
+                            <NavLink
+                              to="/mallsss"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              All
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Caps & hats
+                            <NavLink
+                              to="/mhc"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Caps & hats
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Bags
+                            <NavLink
+                              to="/mbags"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Bags
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Socks
+                            <NavLink
+                              to="/msocks"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Socks
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Belts
+                            <NavLink
+                              to="/mbelts"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Belts
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
-                            Backpacks
+                            <NavLink
+                              to="/mbacks"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              Backpacks
+                            </NavLink>
                           </li>
                         </ul>
                       )}
@@ -659,10 +844,27 @@ export default function Nav() {
                       {openMenu === "shopm" && (
                         <ul className="ml-4 mt-2 space-y-1 text-gray-600 font-normal">
                           <li className="cursor-pointer text-xl hover:text-black">
-                            All
+                            <NavLink
+                              to="/mallssss"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              All
+                            </NavLink>
                           </li>
                           <li className="cursor-pointer text-xl hover:text-black">
+                            <NavLink
+                              to="/mdenim"
+                              onClick={() => setNav(!nav)}
+                              className={({ isActive }) =>
+                                isActive ? "border-b-2 border-black" : ""
+                              }
+                            >
+                              
                             Men Denim
+                            </NavLink>
                           </li>
                         </ul>
                       )}

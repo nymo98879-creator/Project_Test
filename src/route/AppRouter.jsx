@@ -47,6 +47,32 @@ import WomenDenim from "../components/Women/Shop_by_collection/WomenDenim";
 // Men
 // New
 import MAll from "../components/Men/New/MAll";
+import MLifeStyle from "../components/Men/New/MLifeStyle";
+import MCasual from "../components/Men/New/MCasual";
+// Chlothing 
+import MAlls from "../components/Men/Clothing/MAlls";
+import MVest from "../components/Men/Clothing/MVest";
+import MBlazers from "../components/Men/Clothing/MBlazers";
+import MShirts from "../components/Men/Clothing/MShirts";
+import MPoloShirts from "../components/Men/Clothing/MPoloShirts";
+import MJackets from "../components/Men/Clothing/MJackets";
+import MHS from "../components/Men/Clothing/MHS";
+import MCardigans from "../components/Men/Clothing/MCardigans";
+import MTrousers from "../components/Men/Clothing/MTrousers";
+import MJeans from "../components/Men/Clothing/MJeans";
+import MShorts from "../components/Men/Clothing/MShorts";
+import MBoxers from "../components/Men/Clothing/MBoxers";
+import MAllss from "../components/Men/Shoes/MAllss";
+import MSneakers from "../components/Men/Shoes/MSneakers";
+import MSandals from "../components/Men/Shoes/MSandals";
+import MAllsss from "../components/Men/Accessories/MAllsss";
+import MHC from "../components/Men/Accessories/MCH";
+import MBags from "../components/Men/Accessories/MBags";
+import MSocks from "../components/Men/Accessories/MSocks";
+import MBackPack from "../components/Men/Accessories/MBackPack";
+import MBelts from "../components/Men/Accessories/MBelts";
+import MAllssss from "../components/Men/Shop_by_collection/MAllssss";
+import MMenDenim from "../components/Men/Shop_by_collection/MMenDenim";
 
 
 
@@ -54,22 +80,21 @@ import MAll from "../components/Men/New/MAll";
 export default function AppRouter() {
   return (
     <Routes>
-
       {/* Womne Route */}
       {/* Home */}
       <Route path="/" element={<Home />} />
 
       {/* New In */}
-      <Route path="/all" element={<All/>} />
+      <Route path="/all" element={<All />} />
       <Route path="/lifeStyle" element={<LifeStyle />} />
-      <Route path="/casual" element={<Casual/>} />
-      <Route path="/dress" element={<Dress/>} />
+      <Route path="/casual" element={<Casual />} />
+      <Route path="/dress" element={<Dress />} />
 
       {/* Clothing */}
-      <Route path="/alls" element={<Alls/>} />
-      <Route path="/vest" element={<Vest/>} />
+      <Route path="/alls" element={<Alls />} />
+      <Route path="/vest" element={<Vest />} />
       <Route path="/blazer" element={<Blazers />} />
-      <Route path="/shirt" element={<Shirts/>} />
+      <Route path="/shirt" element={<Shirts />} />
       <Route path="/poloShirt" element={<PoloShirts />} />
       <Route path="/tShirt" element={<TShirts />} />
       <Route path="/jacket" element={<Jackets />} />
@@ -88,7 +113,7 @@ export default function AppRouter() {
       <Route path="/allAccessories" element={<Allsss />} />
       <Route path="/bows" element={<Bows />} />
       <Route path="/socks" element={<Socks />} />
-      <Route path="/hc" element={<HC/>} />
+      <Route path="/hc" element={<HC />} />
       <Route path="/backpack" element={<BackPack />} />
       <Route path="/bags" element={<Bags />} />
       <Route path="/belts" element={<Belts />} />
@@ -97,10 +122,40 @@ export default function AppRouter() {
       <Route path="/allCollections" element={<Allssss />} />
       <Route path="/womenDenim" element={<WomenDenim />} />
 
-
-    {/* Men Route */}
-    <Route path="mall" element={<MAll/>}/>
-
+      {/* Men Route */}
+      {/* All */}
+      <Route path="mall" element={<MAll />} />
+      <Route path="/mlifestyle" element={<MLifeStyle />} />
+      <Route path="/mcasual" element={<MCasual />} />
+      {/* Clothing */}
+      <Route path="/malls" element={<MAlls />} />
+      <Route path="/mvest" element={<MVest />} />
+      <Route path="/mblazer" element={<MBlazers />} />
+      <Route path="/mshirts" element={<MShirts />} />
+      <Route path="/mpshirts" element={<MPoloShirts />} />
+      <Route path="/mtshirts" element={<TShirts />} />
+      <Route path="/mjeakets" element={<MJackets />} />
+      <Route path="/mhs" element={<MHS />} />
+      <Route path="/mcardigans" element={<MCardigans />} />
+      <Route path="/mtrousers" element={<MTrousers />} />
+      <Route path="/mjeans" element={<MJeans />} />
+      <Route path="/mshorts" element={<MShorts />} />
+      <Route path="/mboxers" element={<MBoxers />} />
+      {/* Shoes */}
+      <Route path="/mallss" element={<MAllss />} />
+      <Route path="/msneakers" element={<MSneakers />} />
+      <Route path="/msandals" element={<MSandals />} />
+      {/* Accesseries */}
+      <Route path="/mallsss" element={<MAllsss />} />
+      <Route path="/mhc" element={<MHC />} />
+      <Route path="/mbags" element={<MBags />} />
+      <Route path="/msocks" element={<MSocks />} />
+      <Route path="/mbelts" element={<MBelts />} />
+      <Route path="/mbacks" element={<MBackPack />} />
+      {/* Shop By */}
+      <Route path="/mallssss" element={<MAllssss />} />
+      <Route path="/mdenim" element={<MMenDenim />} />
+      
     </Routes>
   );
 }

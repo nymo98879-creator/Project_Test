@@ -1,11 +1,10 @@
 // All.jsx
 import React from "react";
 
-const PoloShirts = () => {
+const MBlazers = () => {
   const products = [
     {
       id: 1,
-      image: "/Women/Clothing/PoloShirts/image5.png",
       originalPrice: 18.59,
       discount: 10,
       finalPrice: 12.23,
@@ -15,7 +14,6 @@ const PoloShirts = () => {
     },
     {
       id: 2,
-      image: "/Women/Clothing/PoloShirts/image1.png",
       originalPrice: 8.59,
       discount: 19.0,
       finalPrice: 6.95,
@@ -25,7 +23,6 @@ const PoloShirts = () => {
     },
     {
       id: 3,
-      image: "/Women/Clothing/PoloShirts/image2.png",
       originalPrice: 14.59,
       discount: 10,
       finalPrice: 13.13,
@@ -35,7 +32,6 @@ const PoloShirts = () => {
     },
     {
       id: 4,
-      image: "/Women/Clothing/PoloShirts/image3.png",
       originalPrice: 21.59,
       discount: 0,
       finalPrice: 21.59,
@@ -45,7 +41,6 @@ const PoloShirts = () => {
     },
     {
       id: 5,
-      image: "/Women/Clothing/PoloShirts/image4.png",
       originalPrice: 25.99,
       discount: 15,
       finalPrice: 22.09,
@@ -55,7 +50,6 @@ const PoloShirts = () => {
     },
     {
       id: 6,
-      image: "/Women/Clothing/PoloShirts/image8.png",
       originalPrice: 12.99,
       discount: 20,
       finalPrice: 10.39,
@@ -65,7 +59,6 @@ const PoloShirts = () => {
     },
     {
       id: 7,
-      image: "/Women/Clothing/PoloShirts/image5.png",
       originalPrice: 19.99,
       discount: 25,
       finalPrice: 14.99,
@@ -75,7 +68,6 @@ const PoloShirts = () => {
     },
     {
       id: 8,
-      image: "/Women/Clothing/PoloShirts/image6.png",
       originalPrice: 32.5,
       discount: 0,
       finalPrice: 32.5,
@@ -85,7 +77,6 @@ const PoloShirts = () => {
     },
     {
       id: 9,
-      image: "/Women/Clothing/PoloShirts/image7.png",
       originalPrice: 15.75,
       discount: 30,
       finalPrice: 11.03,
@@ -94,8 +85,7 @@ const PoloShirts = () => {
       hasPrinted: false,
     },
     {
-        image: "/Women/Clothing/PoloShirts/image8.png",id: 10,
-      
+      id: 10,
       originalPrice: 28.99,
       discount: 12,
       finalPrice: 25.51,
@@ -103,14 +93,103 @@ const PoloShirts = () => {
       hasDiscount: true,
       hasPrinted: true,
     },
-    
+    {
+      id: 11,
+      originalPrice: 9.99,
+      discount: 5,
+      finalPrice: 9.49,
+      title: "Essential Basic T-Shirt",
+      hasDiscount: true,
+      hasPrinted: false,
+    },
+    {
+      id: 12,
+      originalPrice: 35.0,
+      discount: 40,
+      finalPrice: 21.0,
+      title: "Premium Printed Oversized Tee",
+      hasDiscount: true,
+      hasPrinted: true,
+    },
+    {
+      id: 13,
+      originalPrice: 17.5,
+      discount: 0,
+      finalPrice: 17.5,
+      title: "Classic Fit Cotton T-Shirt",
+      hasDiscount: false,
+      hasPrinted: false,
+    },
+    {
+      id: 14,
+      originalPrice: 22.99,
+      discount: 18,
+      finalPrice: 18.85,
+      title: "Artistic Graphic T-Shirt",
+      hasDiscount: true,
+      hasPrinted: true,
+    },
+    {
+      id: 15,
+      originalPrice: 13.25,
+      discount: 8,
+      finalPrice: 12.19,
+      title: "Everyday Comfort T-Shirt",
+      hasDiscount: true,
+      hasPrinted: false,
+    },
+    {
+      id: 16,
+      originalPrice: 29.99,
+      discount: 35,
+      finalPrice: 19.49,
+      title: "Exclusive Printed Collection",
+      hasDiscount: true,
+      hasPrinted: true,
+    },
+    {
+      id: 17,
+      originalPrice: 11.99,
+      discount: 0,
+      finalPrice: 11.99,
+      title: "Basic Round Neck T-Shirt",
+      hasDiscount: false,
+      hasPrinted: false,
+    },
+    {
+      id: 18,
+      originalPrice: 26.5,
+      discount: 22,
+      finalPrice: 20.67,
+      title: "Fashion Print T-Shirt",
+      hasDiscount: true,
+      hasPrinted: true,
+    },
+    {
+      id: 19,
+      originalPrice: 16.75,
+      discount: 15,
+      finalPrice: 14.24,
+      title: "Comfort Fit Daily T-Shirt",
+      hasDiscount: true,
+      hasPrinted: false,
+    },
+    {
+      id: 20,
+      originalPrice: 31.99,
+      discount: 28,
+      finalPrice: 23.03,
+      title: "Premium Graphic T-Shirt Collection",
+      hasDiscount: true,
+      hasPrinted: true,
+    },
   ];
 
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-6">
       <div className="max-w-8xl mx-auto">
         <h1 className="text-5xl font-bold text-center mb-12 text-gray-800">
-          Polo_Shirts
+          Blazers
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-8">
@@ -120,15 +199,10 @@ const PoloShirts = () => {
               className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
             >
               {/* Product Image Placeholder - Bigger */}
-              <div className="h-90 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
-                {/* <span className="text-gray-500 text-xl">
+              <div className="h-80 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
+                <span className="text-gray-500 text-xl">
                   Product {product.id}
-                </span> */}
-                <img
-                  src={product.image}
-                  // alt={product.title}
-                  className="h-full w-full object-cover"
-                />
+                </span>
               </div>
 
               <div className="p-6">
@@ -170,4 +244,4 @@ const PoloShirts = () => {
   );
 };
 
-export default PoloShirts;
+export default MBlazers;
