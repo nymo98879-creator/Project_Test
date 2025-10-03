@@ -23,13 +23,13 @@ export default function Slidebar() {
           mousewheel={true}
           keyboard={true}
           modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-          className="mySwiper w-full h-[250px] lg:h-[500px] md:h-[300px] text-center bg-red-300"
+          className="mySwiper w-full h-[200px] lg:h-[500px] md:h-[300px] text-center bg-red-300"
         >
           <SwiperSlide>
             <img
               src="slidebar/image.png"
               alt=""
-              className="w-full h-full object-cover"
+              className="w-full h-full object-fill lg:object-fill"
             />
           </SwiperSlide>
           <SwiperSlide>
