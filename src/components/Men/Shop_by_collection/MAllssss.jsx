@@ -5,6 +5,8 @@ const MAllssss = () => {
   const products = [
     {
       id: 1,
+
+      image: "/Men/ShopBy/All/image3.png",
       originalPrice: 18.59,
       discount: 10,
       finalPrice: 12.23,
@@ -14,6 +16,8 @@ const MAllssss = () => {
     },
     {
       id: 2,
+
+      image: "/Men/ShopBy/All/image9.png",
       originalPrice: 8.59,
       discount: 19.0,
       finalPrice: 6.95,
@@ -23,6 +27,8 @@ const MAllssss = () => {
     },
     {
       id: 3,
+
+      image: "/Men/ShopBy/All/image7.png",
       originalPrice: 14.59,
       discount: 10,
       finalPrice: 13.13,
@@ -32,6 +38,8 @@ const MAllssss = () => {
     },
     {
       id: 4,
+
+      image: "/Men/ShopBy/All/image10.png",
       originalPrice: 21.59,
       discount: 0,
       finalPrice: 21.59,
@@ -41,6 +49,8 @@ const MAllssss = () => {
     },
     {
       id: 5,
+
+      image: "/Men/ShopBy/All/image5.png",
       originalPrice: 25.99,
       discount: 15,
       finalPrice: 22.09,
@@ -50,136 +60,155 @@ const MAllssss = () => {
     },
     {
       id: 6,
-      originalPrice: 12.99,
+
+      image: "/Men/ShopBy/All/image4.png",
+      originalPrice: 32.99,
       discount: 20,
-      finalPrice: 10.39,
-      title: "Basic Crew Neck T-Shirt",
+      finalPrice: 26.39,
+      title: "Casual Crew Neck Sweatshirt",
       hasDiscount: true,
       hasPrinted: false,
     },
     {
       id: 7,
-      originalPrice: 19.99,
+
+      image: "/Men/ShopBy/All/image1.png",
+      originalPrice: 45.5,
       discount: 25,
-      finalPrice: 14.99,
-      title: "Graphic Print T-Shirt",
+      finalPrice: 34.13,
+      title: "Designer Hoodie Collection",
       hasDiscount: true,
       hasPrinted: true,
     },
     {
       id: 8,
-      originalPrice: 32.5,
+
+      image: "/Men/ShopBy/All/image3.png",
+      originalPrice: 28.75,
       discount: 0,
-      finalPrice: 32.5,
-      title: "Designer Collection T-Shirt",
+      finalPrice: 28.75,
+      title: "Classic Denim Jacket",
       hasDiscount: false,
-      hasPrinted: true,
+      hasPrinted: false,
     },
     {
       id: 9,
-      originalPrice: 15.75,
+
+      image: "/Men/ShopBy/All/image7.png",
+      originalPrice: 19.99,
       discount: 30,
-      finalPrice: 11.03,
-      title: "Summer V-Neck T-Shirt",
+      finalPrice: 13.99,
+      title: "Striped Polo Shirt",
       hasDiscount: true,
-      hasPrinted: false,
+      hasPrinted: true,
     },
     {
       id: 10,
-      originalPrice: 28.99,
-      discount: 12,
-      finalPrice: 25.51,
-      title: "Limited Edition Printed Tee",
+      image: "/Men/ShopBy/All/image9.png",
+      originalPrice: 55.0,
+      discount: 15,
+      finalPrice: 46.75,
+      title: "Premium Leather Jacket",
       hasDiscount: true,
-      hasPrinted: true,
+      hasPrinted: false,
     },
     {
       id: 11,
-      originalPrice: 9.99,
-      discount: 5,
-      finalPrice: 9.49,
-      title: "Essential Basic T-Shirt",
-      hasDiscount: true,
-      hasPrinted: false,
-    },
-    {
-      id: 12,
-      originalPrice: 35.0,
-      discount: 40,
-      finalPrice: 21.0,
-      title: "Premium Printed Oversized Tee",
+      image: "/Men/ShopBy/All/image10.png",
+      originalPrice: 22.49,
+      discount: 10,
+      finalPrice: 20.24,
+      title: "Casual Linen Shirt",
       hasDiscount: true,
       hasPrinted: true,
     },
     {
-      id: 13,
-      originalPrice: 17.5,
-      discount: 0,
-      finalPrice: 17.5,
-      title: "Classic Fit Cotton T-Shirt",
-      hasDiscount: false,
+      id: 12,
+      image: "/Men/ShopBy/All/image8.png",
+      originalPrice: 38.99,
+      discount: 40,
+      finalPrice: 23.39,
+      title: "Winter Fleece Jacket",
+      hasDiscount: true,
       hasPrinted: false,
     },
     {
+      id: 13,
+      image: "/Men/ShopBy/All/image7.png",
+      originalPrice: 16.99,
+      discount: 0,
+      finalPrice: 16.99,
+      title: "Basic Tank Top",
+      hasDiscount: false,
+      hasPrinted: true,
+    },
+    {
       id: 14,
-      originalPrice: 22.99,
+      image: "/Men/ShopBy/All/image6.png",
+      originalPrice: 29.5,
       discount: 18,
-      finalPrice: 18.85,
-      title: "Artistic Graphic T-Shirt",
+      finalPrice: 24.19,
+      title: "Printed Graphic Hoodie",
       hasDiscount: true,
       hasPrinted: true,
     },
     {
       id: 15,
-      originalPrice: 13.25,
-      discount: 8,
-      finalPrice: 12.19,
-      title: "Everyday Comfort T-Shirt",
+      image: "/Men/ShopBy/All/image2.png",
+      originalPrice: 42.75,
+      discount: 22,
+      finalPrice: 33.35,
+      title: "Bomber Jacket Casual",
       hasDiscount: true,
       hasPrinted: false,
     },
     {
       id: 16,
-      originalPrice: 29.99,
-      discount: 35,
-      finalPrice: 19.49,
-      title: "Exclusive Printed Collection",
+      image: "/Men/ShopBy/All/image5.png",
+      originalPrice: 24.99,
+      discount: 12,
+      finalPrice: 21.99,
+      title: "Oversized Sweater",
       hasDiscount: true,
       hasPrinted: true,
     },
     {
       id: 17,
-      originalPrice: 11.99,
+      image: "/Men/ShopBy/All/image4.png",
+      originalPrice: 35.25,
       discount: 0,
-      finalPrice: 11.99,
-      title: "Basic Round Neck T-Shirt",
+      finalPrice: 35.25,
+      title: "Corduroy Pants",
       hasDiscount: false,
       hasPrinted: false,
     },
     {
       id: 18,
-      originalPrice: 26.5,
-      discount: 22,
-      finalPrice: 20.67,
-      title: "Fashion Print T-Shirt",
+      image: "/Men/ShopBy/All/image3.png",
+      originalPrice: 19.75,
+      discount: 25,
+      finalPrice: 14.81,
+      title: "Casual Short Sleeve Shirt",
       hasDiscount: true,
       hasPrinted: true,
     },
     {
       id: 19,
-      originalPrice: 16.75,
-      discount: 15,
-      finalPrice: 14.24,
-      title: "Comfort Fit Daily T-Shirt",
+      image: "/Men/ShopBy/All/image1.png",
+      originalPrice: 48.99,
+      discount: 35,
+      finalPrice: 31.84,
+      title: "Designer Windbreaker",
       hasDiscount: true,
       hasPrinted: false,
     },
     {
       id: 20,
-      originalPrice: 31.99,
-      discount: 28,
-      finalPrice: 23.03,
-      title: "Premium Graphic T-Shirt Collection",
+      image: "/Men/ShopBy/All/image10.png",
+      originalPrice: 27.5,
+      discount: 8,
+      finalPrice: 25.3,
+      title: "Striped Long Sleeve Tee",
       hasDiscount: true,
       hasPrinted: true,
     },
@@ -189,7 +218,7 @@ const MAllssss = () => {
     <div className="min-h-screen bg-gray-50 py-12 px-6">
       <div className="max-w-8xl mx-auto">
         <h1 className="text-5xl font-bold text-center mb-12 text-gray-800">
-          All BY
+          All By Collections
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-8">
@@ -199,10 +228,15 @@ const MAllssss = () => {
               className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
             >
               {/* Product Image Placeholder - Bigger */}
-              <div className="h-80 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
-                <span className="text-gray-500 text-xl">
+              <div className="h-90 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
+                {/* <span className="text-gray-500 text-xl">
                   Product {product.id}
-                </span>
+                </span> */}
+                <img
+                  src={product.image}
+                  // alt={product.title}
+                  className="h-full w-full object-cover"
+                />
               </div>
 
               <div className="p-6">

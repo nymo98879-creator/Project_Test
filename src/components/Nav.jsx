@@ -293,17 +293,7 @@ export default function Nav() {
                               Shorts
                             </NavLink>
                           </li>
-                          <li className="cursor-pointer text-xl hover:text-black">
-                            <NavLink
-                              to="/boxer"
-                              onClick={() => setNav(!nav)}
-                              className={({ isActive }) =>
-                                isActive ? "border-b-2 border-black" : ""
-                              }
-                            >
-                              Boxers
-                            </NavLink>
-                          </li>
+                          
                         </ul>
                       )}
                     </li>

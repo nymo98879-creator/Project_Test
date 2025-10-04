@@ -5,7 +5,7 @@ const MLifeStyle = () => {
   const products = [
     {
       id: 1,
-      image: "/slidebar/image1.png",
+      image: "/Men/New/LifeStyle/image3.png",
       originalPrice: 18.59,
       discount: 10,
       finalPrice: 12.23,
@@ -15,7 +15,7 @@ const MLifeStyle = () => {
     },
     {
       id: 2,
-      image: "/slidebar/image1.png",
+      image: "/Men/New/LifeStyle/image2.png",
       originalPrice: 8.59,
       discount: 19.0,
       finalPrice: 6.95,
@@ -25,7 +25,7 @@ const MLifeStyle = () => {
     },
     {
       id: 3,
-      image: "/slidebar/image1.png",
+      image: "/Men/New/LifeStyle/image4.png",
       originalPrice: 14.59,
       discount: 10,
       finalPrice: 13.13,
@@ -35,7 +35,7 @@ const MLifeStyle = () => {
     },
     {
       id: 4,
-      image: "/slidebar/image1.png",
+      image: "/Men/New/LifeStyle/image1.png",
       originalPrice: 21.59,
       discount: 0,
       finalPrice: 21.59,
@@ -45,7 +45,7 @@ const MLifeStyle = () => {
     },
     {
       id: 5,
-      image: "/slidebar/image2.png",
+      image: "/Men/New/LifeStyle/image5.png",
       originalPrice: 25.99,
       discount: 15,
       finalPrice: 22.09,
@@ -59,7 +59,7 @@ const MLifeStyle = () => {
     <div className="min-h-screen bg-gray-50 py-12 px-6">
       <div className="max-w-8xl mx-auto">
         <h1 className="text-5xl font-bold text-center mb-12 text-gray-800">
-          Life Style Men
+          Life Style 
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-8">
@@ -69,7 +69,7 @@ const MLifeStyle = () => {
               className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
             >
               {/* Product Image Placeholder - Bigger */}
-              <div className="h-80 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
+              <div className="h-90 bg-gradient-to-br from-blue-100 to-indigo-200 flex items-center justify-center">
                 {/* <span className="text-gray-500 text-xl">
                   Product {product.id}
                 </span> */}

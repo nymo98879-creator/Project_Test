@@ -73,6 +73,7 @@ import MBackPack from "../components/Men/Accessories/MBackPack";
 import MBelts from "../components/Men/Accessories/MBelts";
 import MAllssss from "../components/Men/Shop_by_collection/MAllssss";
 import MMenDenim from "../components/Men/Shop_by_collection/MMenDenim";
+import MTShirts from "../components/Men/Clothing/MTShirts";
 
 
 
@@ -103,7 +104,7 @@ export default function AppRouter() {
       <Route path="/trouser" element={<Trousers />} />
       <Route path="/jean" element={<Jeans />} />
       <Route path="/short" element={<Shorts />} />
-      <Route path="/boxer" element={<Boxers />} />
+      {/* <Route path="/boxer" element={<Boxers />} /> */}
 
       {/* Shoes */}
       <Route path="/allShoes" element={<Allss />} />
@@ -133,7 +134,7 @@ export default function AppRouter() {
       <Route path="/mblazer" element={<MBlazers />} />
       <Route path="/mshirts" element={<MShirts />} />
       <Route path="/mpshirts" element={<MPoloShirts />} />
-      <Route path="/mtshirts" element={<TShirts />} />
+      <Route path="/mtshirts" element={<MTShirts />} />
       <Route path="/mjeakets" element={<MJackets />} />
       <Route path="/mhs" element={<MHS />} />
       <Route path="/mcardigans" element={<MCardigans />} />
