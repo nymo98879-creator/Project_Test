@@ -39,7 +39,7 @@ export default function Home() {
           </div>
           <div className="w-full h-[10%]  flex justify-center items-center border-2 border-gray-200  hover:bg-gray-300 transition delay-150 duration-300 ">
             {/* <h1>View More</h1> */}
-            <Link to="/" className="lg:text-2xl font-bold">
+            <Link to="/mall" className="lg:text-2xl font-bold">
               View More
             </Link>
           </div>
